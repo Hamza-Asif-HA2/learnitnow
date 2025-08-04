@@ -84,6 +84,10 @@
             background: linear-gradient(135deg, #2ecc71, #16a085);
         }
         
+        .card-cpp .card-header {
+            background: linear-gradient(135deg, #f39c12, #e74c3c);
+        }
+        
         .card-header {
             padding: 25px;
             text-align: center;
@@ -129,6 +133,10 @@
         
         .card-12 .card-content li:before {
             color: #2ecc71;
+        }
+        
+        .card-cpp .card-content li:before {
+            color: #f39c12;
         }
         
         .btn {
@@ -263,6 +271,10 @@
             color: #2ecc71;
         }
         
+        .chapter-card.grade-cpp h3 {
+            color: #f39c12;
+        }
+        
         .chapter-card i {
             font-size: 1.3rem;
         }
@@ -292,7 +304,7 @@
         .social-link {
             color: #fff;
             margin: 0 10px;
-            font-size: 0.8rem;
+            font-size: rem;
             transition: all 0.3s ease;
         }
         
@@ -331,15 +343,8 @@
             }
         }
     </style>
-    <!-- Google tag (gtag.js) -->
+       <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-98WZE6W27H"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-98WZE6W27H');
-</script>
 </head>
 <body>
     <div class="container">
@@ -417,6 +422,30 @@
                     <button class="btn select-course" data-course="12">Explore Course</button>
                     <a href="https://drive.google.com/drive/folders/1SEfL7Yw3nJfVLToz9MAuAm2_NoCCk1qD" class="notes-btn" target="_blank">
                         <i class="fas fa-book"></i> C Language Notes
+                    </a>
+                </div>
+            </div>
+            
+            <div class="card card-cpp">
+                <div class="card-header">
+                    <div class="card-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h2>C++ Programming</h2>
+                    <p>Object-Oriented Programming</p>
+                </div>
+                <div class="card-content">
+                    <p>Learn C++ programming with OOP concepts and advanced features.</p>
+                    <ul>
+                        <li>C++ Basics & Syntax</li>
+                        <li>OOP Principles</li>
+                        <li>Classes & Objects</li>
+                        <li>Templates & STL</li>
+                        <li>Memory Management</li>
+                    </ul>
+                    <button class="btn select-course" data-course="cpp">Explore Course</button>
+                    <a href="https://drive.google.com/drive/folders/1OTeptkNFmtBSoMqW6oxiWmvDUrQl6Peo" class="notes-btn" target="_blank">
+                        <i class="fas fa-book"></i> C++ Notes
                     </a>
                 </div>
             </div>
@@ -654,6 +683,94 @@
             </div>
         </div>
         
+        <!-- C++ Course Content -->
+        <div class="course-content" id="course-cpp">
+            <button class="back-btn"><i class="fas fa-arrow-left"></i> Back to Courses</button>
+            <h2><i class="fas fa-cogs"></i> C++ Programming Course</h2>
+            <p class="subtitle">Master C++ with Object-Oriented Programming concepts</p>
+            
+            <div class="video-container">
+                <iframe id="video-player-cpp" src="https://www.youtube.com/embed/e7sAf4SbS_g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            <h3>Course Chapters</h3>
+            <div class="chapters-container">
+                <div class="chapter-card grade-cpp" data-time="0">
+                    <h3><i class="fas fa-play-circle"></i> Introduction</h3>
+                    <p>Overview of C++ programming language</p>
+                    <div class="timestamp">Start: 00:00</div>
+                </div>
+                
+                <div class="chapter-card grade-cpp" data-time="145">
+                    <h3><i class="fas fa-play-circle"></i> Online Compiler - Replit</h3>
+                    <p>Setting up online development environment</p>
+                    <div class="timestamp">Start: 02:25</div>
+                </div>
+                
+                <div class="chapter-card grade-cpp" data-time="438">
+                    <h3><i class="fas fa-play-circle"></i> Basics</h3>
+                    <p>C++ fundamentals and syntax</p>
+                    <div class="timestamp">Start: 07:18</div>
+                </div>
+                
+                <div class="chapter-card grade-cpp" data-time="6980">
+                    <h3><i class="fas fa-play-circle"></i> Conditionals</h3>
+                    <p>If-else and switch statements</p>
+                    <div class="timestamp">Start: 1:56:20</div>
+                </div>
+                
+                <div class="chapter-card grade-cpp" data-time="12228">
+                    <h3><i class="fas fa-play-circle"></i> Loops</h3>
+                    <p>While, for, and do-while loops</p>
+                    <div class="timestamp">Start: 3:23:48</div>
+                </div>
+                
+                <div class="chapter-card grade-cpp" data-time="18296">
+                    <h3><i class="fas fa-play-circle"></i> Pattern Printing</h3>
+                    <p>Creating patterns with loops</p>
+                    <div class="timestamp">Start: 5:04:56</div>
+                </div>
+                
+                <div class="chapter-card grade-cpp" data-time="22494">
+                    <h3><i class="fas fa-play-circle"></i> Functions</h3>
+                    <p>Creating and using functions</p>
+                    <div class="timestamp">Start: 6:14:54</div>
+                </div>
+                
+                <div class="chapter-card grade-cpp" data-time="27003">
+                    <h3><i class="fas fa-play-circle"></i> Pointers</h3>
+                    <p>Understanding and working with pointers</p>
+                    <div class="timestamp">Start: 7:30:03</div>
+                </div>
+                
+                <div class="chapter-card grade-cpp" data-time="28543">
+                    <h3><i class="fas fa-play-circle"></i> Recursion</h3>
+                    <p>Recursive functions and algorithms</p>
+                    <div class="timestamp">Start: 7:55:43</div>
+                </div>
+                
+                <div class="chapter-card grade-cpp" data-time="32251">
+                    <h3><i class="fas fa-play-circle"></i> Arrays</h3>
+                    <p>Working with arrays in C++</p>
+                    <div class="timestamp">Start: 8:57:31</div>
+                </div>
+                
+                <div class="chapter-card grade-cpp" data-time="37020">
+                    <h3><i class="fas fa-play-circle"></i> 2D Arrays</h3>
+                    <p>Multidimensional arrays</p>
+                    <div class="timestamp">Start: 10:17:00</div>
+                </div>
+                
+                <div class="chapter-card grade-cpp" data-time="39558">
+                    <h3><i class="fas fa-play-circle"></i> Strings</h3>
+                    <p>String manipulation in C++</p>
+                    <div class="timestamp">Start: 10:59:18</div>
+                </div>
+                
+            
+            </div>
+        </div>
+        
         <footer>
             <p>Programming Masterclass &copy; 2025 | Made with ❤️ for students</p>
             <div style="margin: 15px 0;">
@@ -712,9 +829,10 @@
                     const videoPlayer = document.getElementById(`video-player${courseId === '10' ? '' : '-'+courseId}`);
                     
                     // Handle C courses (10th & 12th grade) with timestamps
-                    if (courseId === '10' || courseId === '12') {
+                    if (courseId === '10' || courseId === '12' || courseId === 'cpp') {
                         const timestamp = this.getAttribute('data-time');
-                        videoPlayer.src = `https://www.youtube.com/embed/irqbmMNs2Bo?start=${timestamp}&autoplay=1`;
+                        const videoId = courseId === 'cpp' ? 'e7sAf4SbS_g' : 'irqbmMNs2Bo';
+                        videoPlayer.src = `https://www.youtube.com/embed/${videoId}?start=${timestamp}&autoplay=1`;
                     } 
                     // Handle Python course (11th grade) with separate videos
                     else if (courseId === '11') {
@@ -731,10 +849,12 @@
                         this.style.background = 'rgba(255, 165, 0, 0.3)';
                     } else if (courseId === '12') {
                         this.style.background = 'rgba(46, 204, 113, 0.3)';
+                    } else if (courseId === 'cpp') {
+                        this.style.background = 'rgba(243, 156, 18, 0.3)';
                     }
                 });
             });
         });
     </script>
 </body>
-</html>
+</html> 
